@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -23,6 +23,7 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 
 .top-wrapper {
   padding: 180px 0 100px 0;
@@ -44,7 +45,9 @@ a {
   opacity: 0.7;
   margin-bottom: 2px;
   font-weight: bold;
+  font-size:20px;
 }
+
 
 .btn-wrapper {
   text-align: center;
@@ -158,8 +161,12 @@ header {
 }
 
 .lesson {
-  float: left;
+  float:left;
   width: 20%;
+}
+
+.lesson img{
+  width:100%;
 }
 
 .lesson-icon {
@@ -167,10 +174,9 @@ header {
 }
 
 .lesson-icon p {
-  position: absolute;
-  top: 38%;
+  position: relative;
   width: 100%;
-  color: white;
+  color: black;
 }
 
 .text-contents {
@@ -216,4 +222,13 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+.ima {
+  width:100%;
+  height:100%;
+  position:absolute;
+  animation:slide 20s infinite;
+  opacity:0;
+  padding: 100px 140px;
 }
